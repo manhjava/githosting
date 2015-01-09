@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body class="homepage">
+
+
+	<div id="header">
+		<div id="nav-wrapper">
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="active"><a href="index.html">CP-10</a></li>
+					<li><a href="pictures.html">PICTURES</a></li>
+					<li><a href="right-sidebar.html">VIDEO</a></li>
+					<li><a href="blogs.html">BLOG</a></li>
+					<li><a href="no-sidebar.html">CLUB</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- <div class="container">
+
+			Logo
+			<div id="logo">
+				<h1>
+					<a href="#">CP 10</a>
+				</h1>
+				<span class="tag">By HAGL JMC</span>
+			</div>
+		</div> -->
+	</div>
+
+
+	<main> {{ content }} </main>
+
+	<footer class="footer">
+		<small> &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+		</small>
+	</footer>
+
+</body>
+</html>
