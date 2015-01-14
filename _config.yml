@@ -1,0 +1,19 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            CP10
+tagline:          Nguyen Cong Phuong
+url:              http://nguyencongphuong.com
+paginate:         1
+baseurl:          /
+author:
+  name:           Manh Trinh
+  url:            https://twitter.com/trinhmanh
+  email:          trinhmanh@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/manhjava
