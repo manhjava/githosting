@@ -10,7 +10,7 @@ manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git status
 
 	no changes added to commit (use "git add" and/or "git commit -a")
 manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git add index.html 
-manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git commit -a
+manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git commit -a -m "say something for commit"
 	[gh-pages 222e9c8] update index
  	1 file changed, 11 insertions(+), 10 deletions(-)
 manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git push origin gh-pages
