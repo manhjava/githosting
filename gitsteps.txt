@@ -1,0 +1,28 @@
+start manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ jekyll serve
+---------------
+manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git status
+	On branch gh-pages
+	Your branch is up-to-date with 'origin/gh-pages'.
+
+	Changes not staged for commit:
+  	(use "git add <file>..." to update what will be committed)
+  	(use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+	no changes added to commit (use "git add" and/or "git commit -a")
+manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git add index.html 
+manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git commit -a -m "say something for commit"
+	[gh-pages 222e9c8] update index
+ 	1 file changed, 11 insertions(+), 10 deletions(-)
+manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$ git push origin gh-pages
+Username for 'https://github.com': manhjava
+Password for 'https://manhjava@github.com': 
+	Counting objects: 4, done.
+	Delta compression using up to 4 threads.
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (2/2), 264 bytes | 0 bytes/s, done.
+	Total 2 (delta 1), reused 0 (delta 0)
+	To https://github.com/manhjava/githosting.git
+   	4464127..222e9c8  gh-pages -> gh-pages
+manh@manh-X555LDB:~/workspace/nguyencongphuong.com/githosting$
